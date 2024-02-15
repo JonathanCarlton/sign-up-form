@@ -7,54 +7,51 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="page-left">
-        <div class="logo-section">
-            <div class="logo-img">
-                <img src="img/odin-lined.png" alt="">
+    <aside class="page-right">
+        <div class="container">
+            <div class="logo">
+                <img class="logo-img" src="img/odin-lined.png" alt="">
+                <h1 class="logo-name">ODIN</h1>
             </div>
-            <div class="logo-name">
-                <h1>ODIN</h1>
-            </div>
+            <p class="img-credit">Photo by <a href="https://unsplash.com/@kropachev">Fabien BELLANGER</a> on <a href="https://unsplash.com/photos/a-food-truck-parked-in-front-of-a-building-_fkq3isNzMc">Unsplash</a></p>
         </div>
-        <p class="img-credit">Photo by <a href="https://unsplash.com/@fabbel78">Fabien BELLANGER</a>on <a href="https://unsplash.com/photos/the-night-sky-is-filled-with-stars-VpVAG_h20LU">Unsplash</a></p>
-    </div>
-    <div class="page-right">
-        <div>
-            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started</p>
-            <p>You <em>know</em> you want to.</p>
-        </div>
-        <div>
-            <div>
+    </aside>
+    <main class="page-left">
+        <div class="container">
+            <section class="description">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started</p>
+                <p>You <em>know</em> you want to.</p>
+            </section>
+            <section class="form">
                 <h2>Lets do this!</h2>
-            </div>
-            <form action="" method="" id="sign-up-form">
-                <div>
-                    <label for="first-name">First Name</label>
-                    <input type="text" name="first-name" id="first-name" required>
-                    
-                    <label for="last-name">Last Name</label>
-                    <input type="text" name="last-name" id="last-name" required>
-                    
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" required>
-                    
-                    <label for="phone-number">Phone Number</label>
-                    <input type="tel" name="phone-number" id="phone-number" required>
-                    
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password" required>
-                    
-                    <label for="confirm-password">Confirm Password</label>
-                    <input type="password" name="confirm-password" id="confirm-password" required>
-                </div>
-            </form>
-            </div>
+                <form action="" id="sign-up-form">
+                    <div>
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name" required>
+                        
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name" required>
+                        
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                        
+                        <label for="phone-number">Phone Number</label>
+                        <input type="tel" name="phone-number" id="phone-number" required>
+                        
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" required>
+                        
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" name="confirm-password" id="confirm-password" required>
+                    </div>
+
+                </form>
+            </section>
+            <section class="form-submit">
+                <button form="sign-up-form">Create account</button>
+                <p>Already have an account? <a href="">Log in</a></p>
+            </section>
         </div>
-        <div>
-            <button form="sign-up-form">Create account</button>
-            <p>Already have an account? <a href="">Log in</a></p>
-        </div>
-    </div>
-    
+    </main>
 </body>
 </html>

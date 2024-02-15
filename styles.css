@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+.page-right {
+    background-image: url(img/dmitry-kropachev-_fkq3isNzMc-unsplash.jpg);
+    background-size: cover;
+    height: 100%;
+    flex: 1;
+}
+
+.page-right .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    /* flex: 1; */
+    width: 100%;
+    background-color: rgb(0, 0, 0, .5);
+
+}
+
+.logo h1 {
+    color: #fff;
+}
+
+.logo-img {
+    max-height: 100px;
+    width: auto;
+}
+
+.img-credit {
+    color: #fff;
+    text-decoration: none;
+    text-decoration-style: none;
+}
+
+.img-credit a:link,a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+
+.page-left {
+    flex: 2;
+}
